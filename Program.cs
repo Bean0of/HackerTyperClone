@@ -63,7 +63,7 @@ namespace HackerTyperClone
                 Console.Write("Enter a directory to pull source code from (recursive): ");
                 dir = Console.ReadLine();
             }
-            else dir = args[1];
+            else dir = args[0];
 
             CheckRandomCodeDirExists(dir); // If this fails the program will exit early.
 
